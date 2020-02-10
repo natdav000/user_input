@@ -1,0 +1,6 @@
+let name = game.askForString("what is your name?")
+let color = game.askForString("What is your favorite color?")
+let pet = game.askForString("Are you a cat or a dog person?")
+game.splash("your name is " + name)
+game.splash("your favorite color is " + color)
+game.splash("you like " + pet )
